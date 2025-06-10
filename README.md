@@ -15,7 +15,8 @@ Depois dentro da pasta:
 python -m virtualenv venv
 
 e ativar:
-venv/Scripts/activate
+venv/Scripts/activate <- Ativa
+deactivate            <- Desativa
 
 2 - instalar o Django
 pip install django
@@ -26,3 +27,10 @@ django-admin startproject setup .
 Para rodar o servidor pela primeira vez:
 python manage.py runserver
 
+=====
+
+4 - foi instalado dotenv:
+pip install python-dotenv
+
+-> Para atualizar tudo q foi instalado no ambiente de trabalho:
+pip freeze > requirements.txt 
