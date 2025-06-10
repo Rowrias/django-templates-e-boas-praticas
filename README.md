@@ -15,8 +15,8 @@ Depois dentro da pasta:
 python -m virtualenv venv
 
 e ativar:
-venv/Scripts/activate <- Ativa
-deactivate            <- Desativa
+venv/Scripts/activate   <- Ativa
+deactivate              <- Desativa
 
 2 - instalar o Django
 pip install django
